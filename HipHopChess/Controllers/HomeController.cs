@@ -26,5 +26,19 @@ namespace HipHopChess.Controllers
 
             return View();
         }
+
+        public ActionResult Services()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult PaymentConfirmation()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
